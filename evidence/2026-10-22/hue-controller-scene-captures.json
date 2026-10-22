@@ -1,0 +1,210 @@
+[
+ {
+  "scene": "Energie",
+  "entity": "scene.keuken_energie",
+  "brightness": 255,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec",
+   "0000000001ee047cfdec"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 255,
+   "xy_color": [
+    0.328,
+    0.334
+   ],
+   "color_temp_kelvin": 6410,
+   "color_mode": "color_temp"
+  }
+ },
+ {
+  "scene": "Rusten",
+  "entity": "scene.keuken_keuken_rusten",
+  "brightness": 89,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "1e7d0595000001540000",
+   "1e7d0595000001540000",
+   "1e7d0595000001540000",
+   "1e7d0595000001540000",
+   "1e7d0595000001540000",
+   "1e7d0595000001540000",
+   "1e7d0595000001540000"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 90,
+   "xy_color": [
+    0.561,
+    0.4042
+   ],
+   "color_temp_kelvin": null,
+   "color_mode": "xy"
+  }
+ },
+ {
+  "scene": "Lily",
+  "entity": "scene.keuken_lily",
+  "brightness": 204,
+  "dynamic": true,
+  "speed": 0.6031746,
+  "units": [
+   "a91919a5000001be0000",
+   "c2fb1da100001bb90000",
+   "38290000028157490000",
+   "2be600000d8863c00000",
+   "8be600000f1f39c10000",
+   "b78800000ca41b9d0000",
+   "c367000009010b120000"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 204,
+   "xy_color": [
+    0.5793,
+    0.392
+   ],
+   "color_temp_kelvin": null,
+   "color_mode": "xy"
+  }
+ },
+ {
+  "scene": "Ontspannen",
+  "entity": "scene.keuken_ontspannen",
+  "brightness": 143,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "00000094000043ba002d",
+   "00000094000043ba002d",
+   "00000094000043ba002d",
+   "00000094000043ba002d",
+   "00000094000043ba002d",
+   "00000094000043ba002d",
+   "00000094000043ba002d"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 143,
+   "xy_color": [
+    0.575,
+    0.389
+   ],
+   "color_temp_kelvin": 2237,
+   "color_mode": "color_temp"
+  }
+ },
+ {
+  "scene": "Concentreren",
+  "entity": "scene.keuken_concentreren",
+  "brightness": 255,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96",
+   "00001d2000006fb88a96"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 255,
+   "xy_color": [
+    0.403,
+    0.36
+   ],
+   "color_temp_kelvin": 4291,
+   "color_mode": "color_temp"
+  }
+ },
+ {
+  "scene": "Lezen",
+  "entity": "scene.keuken_lezen",
+  "brightness": 255,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 255,
+   "xy_color": [
+    0.507,
+    0.384
+   ],
+   "color_temp_kelvin": 2890,
+   "color_mode": "color_temp"
+  }
+ },
+ {
+  "scene": "Nachtlampje",
+  "entity": "scene.keuken_nachtlampje",
+  "brightness": 0,
+  "dynamic": false,
+  "speed": 0.603,
+  "units": [
+   "012900370000000e0000",
+   "012900370000000e0000",
+   "012900370000000e0000",
+   "012900370000000e0000",
+   "012900370000000e0000",
+   "012900370000000e0000",
+   "012900370000000e0000"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 0,
+   "xy_color": [
+    0.561,
+    0.4042
+   ],
+   "color_temp_kelvin": null,
+   "color_mode": "xy"
+  }
+ },
+ {
+  "scene": "Natuurlijk licht",
+  "entity": "scene.keuken_keuken_natuurlijk_licht",
+  "brightness": null,
+  "dynamic": null,
+  "speed": null,
+  "units": [
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739",
+   "0000198c0000cac02739"
+  ],
+  "tail": "0375d77bec08",
+  "light": {
+   "brightness": 255,
+   "xy_color": [
+    0.507,
+    0.384
+   ],
+   "color_temp_kelvin": 2890,
+   "color_mode": "color_temp"
+  }
+ }
+]
