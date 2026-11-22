@@ -1,10 +1,12 @@
-# Philips Hue OmniGlow Lightstrip Protocol — Arduino RGB/CCT control
+# Philips Hue OmniGlow lightstrip protocol
 
-> **Current, verified specification: [docs/PROTOCOL_V2.md](docs/PROTOCOL_V2.md)** (22 Oct 2026): RGB + warm + cool 16-bit units, one per 12.5 cm section, Hue controller reference values. The "8-byte block" reading in `captures/protocol-analysis.md` came from a 64-bit capture limit and is superseded.
+Reverse-engineered Philips Hue OmniGlow lightstrip data protocol, with logic analyzer captures and Arduino Uno firmware for RGB and tunable white (CCT). The tested strip supports independent zones.
 
-Reverse engineering notes and a small Arduino playground for a Philips Hue OmniGlow lightstrip. The project records a repeatable data waveform observed on one intact strip and provides cautious RGB/CCT experiments for an Arduino Uno.
+[Current protocol specification](docs/PROTOCOL_V2.md) · [Wiring limits](#hardware-boundary) · [Arduino Uno firmware](firmware/omniglow_playground/omniglow_playground.ino) · [Nederlandse handleiding](docs/HANDLEIDING.md)
 
-This is an independent, unofficial project. It is not Philips documentation, and the controller IC, channel naming, electrical thresholds, checksum rules, and general product compatibility are still unconfirmed.
+The current specification describes five 16-bit channels per 12.5 cm section. The older 8-byte interpretation came from a 64-bit capture limit.
+
+This is an independent, unofficial project. The controller IC, electrical thresholds, checksum rules, and compatibility with other strips remain unconfirmed.
 
 ## What is currently known
 
